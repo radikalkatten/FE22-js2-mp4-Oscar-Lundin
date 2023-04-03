@@ -91,3 +91,13 @@ function equals(): void {
     resultElement.value = result.toString();
   }
 }
+const imgContainer = document.getElementById('imgContainer')
+const imageElement = document.createElement('img')
+imgContainer?.appendChild(imageElement)
+// const relativeurl: string= "/garfcalculator.jpg"
+// const moduleUrl: string = import.meta.url;
+// console.log(moduleUrl)
+// const url = new URL(relativeurl)
+imageElement.src = "garfcalculator.jpg"
+// console.log(url)
+console.log(imageElement.src)

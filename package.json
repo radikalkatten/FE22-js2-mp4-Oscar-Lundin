@@ -8,7 +8,8 @@
     "dev": "parcel ./src/index.html --no-cache",
     "build": "parcel build ./src/index.html --dist-dir docs --public-url ./ --no-cache",
     "clean": "del-cli ./.parcel-cache ./docs ./dist"
+  },
+  "devDependencies": {
+    "parcel-reporter-static-files-copy": "^1.5.0"
   }
-
 }
-
